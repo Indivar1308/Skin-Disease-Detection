@@ -4,14 +4,11 @@
 # Carcinoskin
 This project uses deep learning algorithms and the Keras library to determine if a person has certain diseases or not from their chest x-rays and other scans. The trained model is displayed using Streamlit, which enables the user to upload an image and receive instant feedback.
 
-Essentially it uses 6 different CNN models to diagnose 6 different diseases :- Covid, Glaucoma, Skin Cancer, Pneumonia, Tuberculosis and Brain Tumor classification
-Covid and Pnemonia are detected using chest X-ray scans of the patient while Gluacoma uses an internal scan of the eye and Skin Cancer is detected
-using external pictures
 
 ## Our Model
 Below is the summary of our CNN model which we have made using python and keras.
 
-### Model for Covid & Pneumonia Classification
+### Model for Skin Cancer
 
 | Layer (type)                  | Output Shape             | Param #     |
 |-------------------------------|--------------------------|-------------|
